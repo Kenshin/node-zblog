@@ -1,0 +1,14 @@
+{   
+  "name" : "node-zblog",
+  "version": "1.0.0",
+  "description" : "zblog api for Node.js",
+  "author": "Kenshin <kenshin@ksria.com> (http://www.k-zone.cn/zblog)",
+  "keywords": ["zblog", "zblog api"],
+  "repository": "git@github.com:Kenshin/node-zblog.git",
+  "main": "index",
+  "engines": { "node": "*" },
+  "dependencies": {
+     "node-xml2json": "1.0.0" 
+  }
+}
+
