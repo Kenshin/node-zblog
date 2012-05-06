@@ -13,8 +13,10 @@ var zblog  = require("node-zblog").method,
     config = require("node-zblog").config,
     mc     = require("node-zblog").event_name,
     url    = new config.zblog_config( 'www.k-zone.cn', '80', '/zblog/api/index.asp', 'null', 'null' ),
+    
     //call get_articles
     zblog.get_articles( url, m_pagesize, page );
+    
     //listener mc.GET_ARTICLES event
     zblog.once( mc.GET_ARTICLES + m_pagesize + page + "_complete", function( result ) {
     	  //call event
@@ -25,7 +27,6 @@ var zblog  = require("node-zblog").method,
 	m_events.once( "articles_complete" + m_pagesize + page, function( result ) {
 		//TO DO
 	});
-
 </pre>
 
 测试：  
