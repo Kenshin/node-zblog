@@ -1,14 +1,37 @@
-{   
-  "name" : "node-zblog",
-  "version": "1.0.0",
-  "description" : "zblog api for Node.js",
-  "author": "Kenshin <kenshin@ksria.com> (http://www.k-zone.cn/zblog)",
-  "keywords": ["zblog", "zblog api"],
-  "repository": "git@github.com:Kenshin/node-zblog.git",
+{
+  "name": "node-zblog",
+  "version": "1.1.0",
+  "description": "zblog api for Node.js",
+  "author": {
+    "name": "Kenshin",
+    "email": "kenshin@ksria.com",
+    "url": "http://www.k-zone.cn/zblog"
+  },
+  "keywords": [
+    "zblog",
+    "zblog api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Kenshin/node-zblog.git"
+  },
   "main": "index",
-  "engines": { "node": "*" },
+  "engines": {
+    "node": "*"
+  },
   "dependencies": {
-     "node-xml2json": "1.0.0" 
-  }
+    "node-xml2json": "1.0.0"
+  },
+  "_npmUser": {
+    "name": "kenshin",
+    "email": "kenshin@ksria.com"
+  },
+  "_id": "node-zblog@1.0.0",
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "_engineSupported": true,
+  "_npmVersion": "1.1.19",
+  "_nodeVersion": "v0.6.16",
+  "_defaultsLoaded": true,
+  "_from": "node-zblog"
 }
-
